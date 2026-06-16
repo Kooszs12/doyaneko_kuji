@@ -3,21 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>どやねこ気まぐれくじ</title>
-  <link rel="stylesheet" href="style.css">
+  <title>どやねこミニゲーム</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <main class="game">
-    <h1>どやねこ気まぐれくじ</h1>
-    <p>今日の気まぐれ運勢を引いてみよう。</p>
+  <main class="home">
+    <h1>どやねこミニゲーム</h1>
+    <p>何で遊ぶ？</p>
 
-    <button id="drawButton">くじを引く</button>
+    <section class="game-list">
+      <a href="games/kuji/" class="game-card">
+        <h2>どやねこ気まぐれくじ</h2>
+        <p>今日の運勢とおすすめメニューを引いてみよう。</p>
+      </a>
 
-    <div id="result" class="result">
-      ここに結果が出るよ
-    </div>
+      <div class="game-card disabled">
+        <h2>準備中</h2>
+        <p>次のミニゲームを準備中です。</p>
+      </div>
+
+      <div class="game-card disabled">
+        <h2>準備中</h2>
+        <p>次のミニゲームを準備中です。</p>
+      </div>
+
+      <div class="game-card disabled">
+        <h2>準備中</h2>
+        <p>次のミニゲームを準備中です。</p>
+      </div>
+    </section>
   </main>
-
-  <script src="script.js"></script>
 </body>
 </html>

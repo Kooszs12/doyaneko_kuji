@@ -4,7 +4,7 @@ const results = [
   "小吉：ゆっくり過ごすといい日",
   "吉：気まぐれパフェが似合う日",
   "末吉：あたたかいごはんで回復する日",
-  "レア：どやねこがこっそり応援している"
+  "凶：今日は無理せずゆっくりいこう"
 ];
 
 const drawButton = document.getElementById("drawButton");
