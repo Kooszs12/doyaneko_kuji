@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
@@ -8,36 +9,55 @@
 </head>
 <body>
   <main class="home">
-    <section class="home-header">
-      <h1>どやねこミニゲーム</h1>
-      <p>今日は何で遊ぶ？</p>
-    </section>
+    <section class="hero">
+      <img
+        src="assets/images/header.png"
+        alt="いざかふぇ どやねこ のヘッダー"
+        class="header-image"
+      >
 
-    <section class="game-list">
-      <a href="games/kuji/" class="game-card">
-        <span class="game-status">あそべる</span>
-        <h2>どやねこ<br>気まぐれくじ</h2>
-        <p>今日の運勢とおすすめメニューを引いてみよう。</p>
-      </a>
+```
+  <h1>どやねこミニゲーム</h1>
+  <p>今日は何で遊ぶ？</p>
+</section>
 
-      <div class="game-card disabled">
-        <span class="game-status">準備中</span>
-        <h2>メニュー<br>神経衰弱</h2>
-        <p>メニューカードを合わせるゲームを準備中。</p>
-      </div>
+<section class="game-list">
+  <a href="games/kuji/" class="game-card active">
+    <span class="card-icon">🎲</span>
+    <span class="game-status playable">あそべる</span>
+    <h2>どやねこ<br>気まぐれくじ</h2>
+    <p>今日の運勢とおすすめメニューを引いてみよう。</p>
+  </a>
 
-      <div class="game-card disabled">
-        <span class="game-status">準備中</span>
-        <h2>注文<br>チャレンジ</h2>
-        <p>注文に合うメニューを選ぶゲームを準備中。</p>
-      </div>
+  <div class="game-card disabled">
+    <span class="card-icon">🃏</span>
+    <span class="game-status">準備中</span>
+    <h2>メニュー<br>神経衰弱</h2>
+    <p>メニューカードを合わせるゲームを準備中。</p>
+  </div>
 
-      <div class="game-card disabled">
-        <span class="game-status">準備中</span>
-        <h2>おまけ<br>ミニゲーム</h2>
-        <p>ちょっと遊べるゲームを準備中。</p>
-      </div>
-    </section>
+  <div class="game-card disabled">
+    <span class="card-icon">📝</span>
+    <span class="game-status">準備中</span>
+    <h2>注文<br>チャレンジ</h2>
+    <p>注文に合うメニューを選ぶゲームを準備中。</p>
+  </div>
+
+  <div class="game-card disabled">
+    <span class="card-icon">🎁</span>
+    <span class="game-status">準備中</span>
+    <h2>おまけ<br>ミニゲーム</h2>
+    <p>ちょっと遊べるゲームを準備中。</p>
+  </div>
+</section>
+
+<img
+  src="assets/images/footer.png"
+  alt="かふねことお店の小物"
+  class="footer-image"
+>
+```
+
   </main>
 </body>
 </html>
